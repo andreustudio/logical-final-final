@@ -273,8 +273,8 @@
                       <p class="mxd-manifest reveal-type anim-uni-in-up">Somos una agencia digital creativa especializada en diseño innovador
                         y desarrollo de vanguardia.</p>
                       <div class="mxd-manifest__controls anim-uni-in-up">
-                        <a class="btn btn-anim btn-default btn-outline slide-right-up anim-uni-in-up" href="contact.html">
-                          <span class="btn-caption">Say Hello</span>
+                        <a class="btn btn-anim btn-default btn-outline slide-right-up anim-uni-in-up" href="{% url 'servicios:servicios' %}">
+                          <span class="btn-caption">Servicios</span>
                           <i class="ph-bold ph-arrow-up-right"></i>
                         </a>
                       </div>
@@ -1722,7 +1722,7 @@
                 <div class="mxd-promo__content">
                   <p class="mxd-promo__title anim-uni-in-up">
                     <span class="mxd-promo__icon">
-                      <img src="https://dummyimage.com/100x100/838383/5d5d5d" alt="Icon">
+                      <img class='mxd-pulse' src="{% static 'img/home/home-heart-prefooter.webp'%}" alt="Icon">
                     </span>
                     <span class="mxd-promo__caption reveal-type">Let's talk about your project!</span>
                   </p>
